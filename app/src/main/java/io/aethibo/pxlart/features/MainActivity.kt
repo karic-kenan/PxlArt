@@ -1,10 +1,11 @@
-package io.aethibo.pxlart
+package io.aethibo.pxlart.features
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.navigation.NavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import io.aethibo.pxlart.R
 import io.aethibo.pxlart.features.utils.setupWithNavController
 
 class MainActivity : AppCompatActivity() {

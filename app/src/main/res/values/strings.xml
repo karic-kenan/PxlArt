@@ -10,4 +10,8 @@
     <string name="loading">Loading</string>
     <string name="retry">Retry</string>
     <string name="search">Search</string>
+
+    <!-- Profile Fragment -->
+    <string name="fragment_profile_title">Under construction</string>
+    <string name="fragment_profile_subtitle">Current screen is under construction. Thank you for your patience.</string>
 </resources>
