@@ -58,6 +58,7 @@ dependencies {
     implementation libs.viewBindingDelegate
     implementation libs.parallaxImageView
     implementation libs.timber
+    implementation libs.swipeRefreshLayout
 
     // Coroutines
     implementation libs.coroutinesCore

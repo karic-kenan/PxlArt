@@ -44,6 +44,7 @@ ext.versions = [
         viewBindingDelegateVersion: '1.0.0',
         parallaxImageViewVersion  : '1.1',
         timberVersion             : '4.7.1',
+        swipeRefreshLayoutVersion : '1.1.0',
 
         /**
          * Architecture components
@@ -110,6 +111,7 @@ ext.libs = [
         constraintLayout     : "androidx.constraintlayout:constraintlayout:${versions.constraintLayoutVersion}",
         viewBindingDelegate  : "com.kirich1409.viewbindingpropertydelegate:viewbindingpropertydelegate:${versions.viewBindingDelegateVersion}",
         timber               : "com.jakewharton.timber:timber:${versions.timberVersion}",
+        swipeRefreshLayout   : "androidx.swiperefreshlayout:swiperefreshlayout:${versions.swipeRefreshLayoutVersion}",
 
         /**
          * Coroutines
