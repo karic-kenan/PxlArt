@@ -2,6 +2,7 @@ package io.aethibo.pxlart
 
 import android.app.Application
 import io.aethibo.pxlart.core.di.networkModule
+import io.aethibo.pxlart.core.di.repositoriesModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -17,7 +18,8 @@ class PxlArtApp : Application() {
         startKoin {
             androidContext(applicationContext)
             modules(
-                networkModule
+                networkModule,
+                repositoriesModule
             )
         }
     }
