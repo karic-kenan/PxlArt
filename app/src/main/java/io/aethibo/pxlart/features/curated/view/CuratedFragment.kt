@@ -93,8 +93,7 @@ class CuratedFragment : Fragment(R.layout.fragment_curated), View.OnClickListene
 
     override fun onClick(view: View?) {
         when (view?.id) {
-            R.id.curated_retry_button -> {
-            }
+            R.id.curated_retry_button -> photosAdapter.retry()
         }
     }
 }
