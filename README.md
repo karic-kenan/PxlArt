@@ -1,8 +1,10 @@
-![header](https://user-images.githubusercontent.com/30006970/101982233-a9583280-3c72-11eb-8dbe-f68a75c17a4f.png)
+![banner](https://user-images.githubusercontent.com/30006970/102007428-51303780-3d29-11eb-862f-fd462015fd66.png)
 
 # PxlArt
 
- Simple android client that uses **Pexels API** to fetch curated photos but also provides option to search for them. Idea behind the app is to demonstrate usage of *Modern Android development* tools.
+ Simple android client 📱 that uses **Pexels API** to fetch curated photos but also provides option to search for them. Idea behind the app is to demonstrate usage of *Modern Android development* tools. Dedicated to all Android Developers with ❤️.
+  - Supports dark theme 🌗
+  - Supports paralax scrolling ⛓
 
  ## Install
 
@@ -70,27 +72,4 @@ If you want to contribute to this library, you're always welcome!
 If you need any help, feel free to contact me: kenan.karic@outlook.com.
 
 ## License
-
-```
-MIT License
-
-Copyright (c) 2020 Karic Kenan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
