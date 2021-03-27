@@ -24,22 +24,22 @@ ext.versions = [
         /**
          * Build
          */
-        kotlinVersion             : '1.4.21',
-        gradleToolsVersion        : '4.1.1',
+        kotlinVersion             : '1.4.31',
+        gradleToolsVersion        : '4.1.3',
 
         /**
          * Android
          */
         appCompatVersion          : '1.2.0',
-        activityKtxVersion        : '1.1.0',
+        activityKtxVersion        : '1.2.2',
         coreKtxVersion            : '1.3.2',
         constraintLayoutVersion   : '2.0.4',
 
         /**
          * Dependencies
          */
-        materialDesignVersion     : '1.2.1',
-        coilVersion               : '1.1.0',
+        materialDesignVersion     : '1.3.0',
+        coilVersion               : '1.1.1',
         pagingVersion             : '3.0.0-alpha10',
         viewBindingDelegateVersion: '1.0.0',
         parallaxImageViewVersion  : '1.1',
@@ -49,14 +49,14 @@ ext.versions = [
         /**
          * Architecture components
          */
-        viewModelVersion          : '2.2.0',
-        liveDataVersion           : '2.2.0',
-        lifeCycleVersion          : '2.2.0',
+        viewModelVersion          : '2.3.1',
+        liveDataVersion           : '2.3.1',
+        lifeCycleVersion          : '2.3.1',
 
         /**
          * Navigation components
          */
-        navigationVersion         : '2.3.2',
+        navigationVersion         : '2.3.4',
         navigationSafeArgsVersion : '2.1.0',
 
         /**
@@ -64,8 +64,8 @@ ext.versions = [
          */
         retrofitVersion           : '2.9.0',
         gsonVersion               : '2.8.6',
-        okHttpVersion             : '4.9.0',
-        okHttpMockWebServerVersion: '4.9.0',
+        okHttpVersion             : '5.0.0-alpha.2',
+        okHttpMockWebServerVersion: '5.0.0-alpha.2',
 
         /**
          * Moshi
@@ -89,10 +89,10 @@ ext.versions = [
          * Testing
          */
         coroutinesTestVersion     : '1.3.7',
-        junitTestVersion          : '4.13.1',
+        junitTestVersion          : '4.13.2',
         extJunitTetVersion        : '1.1.2',
         espressoTestVersion       : '3.3.0',
-        okhttpTestVersion         : '4.9.0',
+        okhttpTestVersion         : '5.0.0-alpha.2',
         coreTestVersion           : '2.1.0'
 ]
 
