@@ -3,12 +3,11 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
-    id 'androidx.navigation.safeargs'
 }
 
 android {
     compileSdkVersion buildConfig.targetSdk
-    buildToolsVersion "30.0.2"
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "io.aethibo.pxlart"
@@ -78,10 +77,8 @@ dependencies {
     // Paging
     implementation libs.paging
 
-    // Navigation components
-    implementation libs.navigationFragmentKtx
-    implementation libs.navigationUIKtx
-    implementation libs.navigationRuntimeKtx
+    // Navigation
+    implementation libs.pandoraNavigation
 
     // Retrofit
     implementation libs.retrofit

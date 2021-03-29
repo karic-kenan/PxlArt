@@ -1,7 +1,7 @@
 package io.aethibo.pxlart.domain.search
 
 import androidx.paging.PagingData
-import io.aethibo.pxlart.core.entities.Photo
+import io.aethibo.pxlart.domain.Photo
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 

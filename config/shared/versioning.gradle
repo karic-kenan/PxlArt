@@ -40,7 +40,7 @@ ext.versions = [
          */
         materialDesignVersion     : '1.3.0',
         coilVersion               : '1.1.1',
-        pagingVersion             : '3.0.0-alpha10',
+        pagingVersion             : '3.0.0-beta03',
         viewBindingDelegateVersion: '1.0.0',
         parallaxImageViewVersion  : '1.1',
         timberVersion             : '4.7.1',
@@ -56,8 +56,7 @@ ext.versions = [
         /**
          * Navigation components
          */
-        navigationVersion         : '2.3.4',
-        navigationSafeArgsVersion : '2.1.0',
+        pandoraNavVersion         : '1.8',
 
         /**
          * Retrofit, Gson, and OkHttp
@@ -102,7 +101,7 @@ ext.libs = [
          * Kotlin
          */
         kotlinLib            : "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlinVersion}",
-        
+
         /**
          * Android
          */
@@ -149,11 +148,9 @@ ext.libs = [
         paging               : "androidx.paging:paging-runtime:${versions.pagingVersion}",
 
         /**
-         * Navigation components
+         * Navigation
          */
-        navigationFragmentKtx: "androidx.navigation:navigation-fragment-ktx:${versions.navigationVersion}",
-        navigationUIKtx      : "androidx.navigation:navigation-ui-ktx:${versions.navigationVersion}",
-        navigationRuntimeKtx : "androidx.navigation:navigation-runtime-ktx:${versions.navigationVersion}",
+        pandoraNavigation    : "com.pandora.bottomnavigator:bottom-navigator:${versions.pandoraNavVersion}",
 
         /**
          * Retrofit
