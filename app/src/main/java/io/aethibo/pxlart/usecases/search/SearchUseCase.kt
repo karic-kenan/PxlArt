@@ -1,4 +1,4 @@
-package io.aethibo.pxlart.domain.search
+package io.aethibo.pxlart.usecases.search
 
 import androidx.paging.PagingData
 import androidx.paging.cachedIn

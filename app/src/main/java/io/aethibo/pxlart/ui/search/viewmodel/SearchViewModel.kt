@@ -2,7 +2,7 @@ package io.aethibo.pxlart.ui.search.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.aethibo.pxlart.domain.search.ISearchUseCase
+import io.aethibo.pxlart.usecases.search.ISearchUseCase
 
 class SearchViewModel(private val useCase: ISearchUseCase) : ViewModel() {
 
