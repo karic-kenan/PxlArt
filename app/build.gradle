@@ -44,7 +44,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
 
     // Kotlin
     implementation libs.kotlinLib
@@ -96,10 +95,8 @@ dependencies {
     kapt libs.moshiCodeGen
 
     // Koin
-    implementation libs.koinCore
     implementation libs.koinAndroid
-    implementation libs.koinAndroidScope
-    implementation libs.koinAndroidViewModel
+    implementation libs.koinExt
 
     // Testing
     testImplementation libs.coreTest
