@@ -24,21 +24,21 @@ ext.versions = [
         /**
          * Build
          */
-        kotlinVersion             : '1.5.10',
-        gradleToolsVersion        : '4.2.1',
+        kotlinVersion             : '1.5.20',
+        gradleToolsVersion        : '4.2.2',
 
         /**
          * Android
          */
         appCompatVersion          : '1.3.0',
         activityKtxVersion        : '1.2.3',
-        coreKtxVersion            : '1.5.0',
+        coreKtxVersion            : '1.6.0',
         constraintLayoutVersion   : '2.0.4',
 
         /**
          * Dependencies
          */
-        materialDesignVersion     : '1.3.0',
+        materialDesignVersion     : '1.4.0',
         coilVersion               : '1.1.1',
         pagingVersion             : '3.0.0',
         viewBindingDelegateVersion: '1.4.6',
@@ -81,16 +81,16 @@ ext.versions = [
         /**
          * Coroutines
          */
-        coroutinesCoreVersion     : '1.3.7',
-        coroutinesAndroidVersion  : '1.3.7',
+        coroutinesCoreVersion     : '1.4.3',
+        coroutinesAndroidVersion  : '1.4.3',
 
         /**
          * Testing
          */
         coroutinesTestVersion     : '1.3.7',
         junitTestVersion          : '4.13.2',
-        extJunitTetVersion        : '1.1.2',
-        espressoTestVersion       : '3.3.0',
+        extJunitTetVersion        : '1.1.3',
+        espressoTestVersion       : '3.4.0',
         okhttpTestVersion         : '5.0.0-alpha.2',
         coreTestVersion           : '2.1.0'
 ]
