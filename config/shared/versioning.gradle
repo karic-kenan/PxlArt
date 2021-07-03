@@ -76,7 +76,7 @@ ext.versions = [
         /**
          * Koin
          */
-        koinVersion               : '3.0.2',
+        koinVersion               : '3.1.2',
 
         /**
          * Coroutines
@@ -179,7 +179,6 @@ ext.libs = [
          * Koin
          */
         koinAndroid        : "io.insert-koin:koin-android:${versions.koinVersion}",
-        koinExt            : "io.insert-koin:koin-android-ext:${versions.koinVersion}",
 
         /**
          * Testing

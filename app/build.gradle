@@ -96,7 +96,6 @@ dependencies {
 
     // Koin
     implementation libs.koinAndroid
-    implementation libs.koinExt
 
     // Testing
     testImplementation libs.coreTest

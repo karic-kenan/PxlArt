@@ -16,7 +16,7 @@ import io.aethibo.pxlart.ui.shared.adapter.loadstate.PhotosLoadStateAdapter
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import org.koin.android.viewmodel.ext.android.viewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class CuratedFragment : Fragment(R.layout.fragment_curated), View.OnClickListener {
 
