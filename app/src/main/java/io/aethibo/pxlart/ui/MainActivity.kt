@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (!navigator.pop()) {
             super.onBackPressed()

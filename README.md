@@ -4,7 +4,7 @@
 
  Simple android client 📱 that uses **Pexels API** to fetch curated photos but also provides option to search for them. Idea behind the app is to demonstrate usage of *Modern Android development* tools. Dedicated to all Android Developers with ❤️.
   - Supports dark theme 🌗
-  - Supports paralax scrolling ⛓
+  - Supports parallax scrolling ⛓
 
  ## Install
 
